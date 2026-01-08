@@ -6,8 +6,8 @@
 
 
 .fonts-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 header nav{
@@ -17,7 +17,7 @@ header nav{
 
 header nav .nav-container{
     display: flex;
-     align-items: center;
+    align-items: center;
 }
 
 .nav-container img{
@@ -35,9 +35,6 @@ header nav .nav-container{
 }
 
 .nav-container .nav-item ul li a{
-    font-size: 16px;
-    font-weight: 500px;
-    color: black;
     text-decoration: none;
 }
 
@@ -47,13 +44,13 @@ header nav .nav-container{
 }
 
 .nav-container .btn{
-   padding-left: 346px;
+    padding-left: 346px;
     padding-bottom: 24px;
     padding-top: 24px;
 }
 
 .nav-container .btn button{
-   font-size: 16px;
+    font-size: 16px;
     font-weight: 600px;
     color: #FFFFFF; 
     padding: 12px 16px;
@@ -61,4 +58,93 @@ header nav .nav-container{
     border-radius: 4px;
 }
 
+header #banner{
+    height: 674px;
+    background-image: url(../assets/hero-bg.png);
+}
 
+header #banner .btn{
+    padding: 115px 630px 0px;
+}
+
+header #banner .btn button{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #469165; 
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 1000px; 
+}
+
+header #banner h1{
+    padding: 16px 405px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+header #banner p{
+    
+    font-size: 18px;
+    padding: 0 430px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+header #banner .btn-two{
+    display: flex;
+    padding: 32px 550px 180px;
+    gap: 20px;
+    align-items: center;
+}
+
+header #banner .btn1 button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    color: #FFFFFF; 
+    background-color: #469165;
+    border-radius: 4px;
+}
+
+header #banner .btn2 button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: unset; 
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+#notes{
+    margin: 100px 120px 0;
+    width: 1360px;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+#notes .notes-container h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#notes .notes-container .notes-title p{
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    padding-top: 10px;
+}
+
+#notes .notes-container .card{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#notes .notes-container .card .card-item{
+    gap: 16px;
+}
