@@ -119,10 +119,10 @@ header #banner .btn2 button{
 }
 
 #notes{
-    margin: 100px 120px 0;
-    width: 1360px;
-    height: 400px;
-    background-color: #ffffff;
+    margin: 80px 120px 0;
+    /* width: 1360px; */
+    /* height: 400px; */
+    /* background-color: #f9f7f7; */
 }
 
 #notes .notes-container h2{
@@ -136,15 +136,39 @@ header #banner .btn2 button{
     text-align: center;
     font-size: 16px;
     color: #627382;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
-#notes .notes-container .card{
+#notes .notes-container .notes-box{
     display: flex;
-    margin-top: 20px;
+    margin: 20px 130px 0px;
+    gap: 16px;
 }
 
+#notes .notes-container .notes-box .notes-card{
+    padding: 10px 16px;
+    box-shadow: 0 6px 50px 0 #63636320;
+    border-radius: 8px;
+    max-width: 274px;
+}
 
-#notes .notes-container .card .card-item{
-    gap: 16px;
+#notes .notes-container .notes-box .notes-card img{
+    margin: 70px 110px 16px;
+    background-color: #F95555;
+}
+
+#notes .notes-container .notes-box .notes-card h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+#notes .notes-container .notes-box .notes-card {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
 }
