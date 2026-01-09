@@ -77,11 +77,12 @@ header #banner .btn button{
 }
 
 header #banner h1{
-    padding: 16px 405px;
+    margin: 16px 420px;
     font-size: 72px;
     font-weight: bold;
-    line-height: 84px;
+    line-height: 60px;
     color: #FFFFFF;
+    text-align:center;
 }
 
 header #banner p{
@@ -90,7 +91,9 @@ header #banner p{
     padding: 0 430px;
     line-height: 30px;
     color: #FFFFFF;
+    text-align:center;
 }
+
 
 header #banner .btn-two{
     display: flex;
@@ -106,6 +109,10 @@ header #banner .btn1 button{
     color: #FFFFFF; 
     background-color: #469165;
     border-radius: 4px;
+}
+
+header #banner .btn1 button img{
+    align-items: center;
 }
 
 header #banner .btn2 button{
@@ -142,7 +149,7 @@ header #banner .btn2 button{
 
 #notes .notes-container .notes-box{
     display: flex;
-    margin: 20px 130px 0px;
+    margin: 20px 80px 0px;
     gap: 16px;
 }
 
@@ -215,6 +222,7 @@ header #banner .btn2 button{
     list-style: none;
     padding-bottom: 16px;
     text-align: left;
+    gap: 6px;
 }
 
 #ready{
@@ -249,7 +257,7 @@ header #banner .btn2 button{
     padding: 12px 12px;
     background-color: #469165;
     border-radius: 4px;
-    margin: 24px 0 0;
+    margin-top: 24px;
 }
 
 footer{
