@@ -47,6 +47,7 @@ header nav .nav-container{
     padding-left: 346px;
     padding-bottom: 24px;
     padding-top: 24px;
+    
 }
 
 .nav-container .btn button{
@@ -56,6 +57,10 @@ header nav .nav-container{
     padding: 12px 16px;
     background-color: #469165;
     border-radius: 4px;
+}
+
+.nav-container .btn button:hover{
+    background-color: #F95555;
 }
 
 header #banner{
@@ -75,6 +80,7 @@ header #banner .btn button{
     background-color: #FFFFFF;
     border-radius: 1000px; 
 }
+
 
 header #banner h1{
     margin: 16px 420px;
@@ -111,6 +117,10 @@ header #banner .btn1 button{
     border-radius: 4px;
 }
 
+header #banner .btn1 button:hover{
+    background-color: #F95555;
+}
+
 header #banner .btn1 button img{
     align-items: center;
 }
@@ -123,6 +133,10 @@ header #banner .btn2 button{
     background-color: unset; 
     border: 1px solid #FFFFFF;
     border-radius: 4px;
+}
+
+header #banner .btn2 button:hover{
+    background-color: #F95555;
 }
 
 #notes{
